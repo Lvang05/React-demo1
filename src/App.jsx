@@ -14,7 +14,7 @@ const App = () => {
     <>
       <Card title="Leon Vang" rating={4}>
         <ul>
-          {leonsMovies.map(movie, index => <li key ={index}>{movie}</li>)}
+          {leonsMovies.map((movie, index) => <li key={index}>{movie}</li>)}
         </ul>
       </Card>
       <Card title="jim" rating={3}>
